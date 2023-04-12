@@ -17,7 +17,7 @@ To install and run the code, you will need the following:
 * rpart.plot
 * gtsummary
 * scales
-
+    
 You can install the required libraries using the following command in R:
 
 ````
@@ -27,7 +27,6 @@ install.packages(c("tidyverse", "foreign", "kableExtra", "pROC", "caret", "rpart
 ## Repository Structure
 The repository is organized as follows:
 
-* src/: Folder containing the source code files for preprocessing, training, and evaluation.
   * Demographic_DementiaPrediction.r: R script for demographic analysis and dementia prediction.
   * Tree_performances-zscore.r: R script for evaluating decision tree performance using z-score transformed data.
   * ADNI_validation.r: R script for validating the algorithm using the ADNI dataset.
@@ -50,23 +49,23 @@ install.packages(c("tidyverse", "foreign", "kableExtra", "pROC", "caret", "rpart
 
 * Demographic analysis and dementia prediction:
 ```
-source("src/Demographic_DementiaPrediction.r")
+source("Demographic_DementiaPrediction.r")
 ```
 * Evaluating decision tree performance using z-score:
 ```
-source("src/Tree_performances-zscore.r")
+source("Tree_performances-zscore.r")
 ```
 * Validating the algorithm using the ADNI dataset:
 ```
-source("src/ADNI_validation.r")
+source("ADNI_validation.r")
 ```
 * Single-variable prediction:
 ```
-source("src/Single_var_prediction.r")
+source("Single_var_prediction.r")
 ```
 * Analyzing PET scans combined with patient history:
 ```
-source("src/PETwithHistory.r")
+source("PETwithHistory.r")
 ```
 
 ## Citation

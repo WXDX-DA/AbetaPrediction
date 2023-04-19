@@ -1,5 +1,7 @@
 # Integrated Algorithm Combining Plasma Biomarkers and Cognitive Assessments Accurately Predicts Brain β-Amyloid Pathology
-This repository contains the source code for the research paper "Integrated algorithm combining plasma biomarkers and cognitive assessments accurately predicts brain β-amyloid pathology" published in Communications Medicine. The code provided here is open-source and can be used to reproduce the results and analyses described in the paper.
+This repository contains the source code for the research paper "Integrated algorithm combining plasma biomarkers and cognitive assessments accurately predicts brain β-amyloid pathology" published in Communications Medicine. The code provided here is open-source and can be used to reproduce the results and analyses described in the paper. 
+
+[![DOI](https://zenodo.org/badge/626207371.svg)](https://zenodo.org/badge/latestdoi/626207371)
 
 ## Overview
 The research paper presents a novel algorithm that combines plasma biomarkers and cognitive assessments to predict brain β-amyloid pathology. The algorithm is designed to improve the early detection and monitoring of Alzheimer's disease, which is characterized by the accumulation of β-amyloid plaques in the brain. This repository includes the code for preprocessing data, training the machine learning models, and evaluating the performance of the algorithm.
